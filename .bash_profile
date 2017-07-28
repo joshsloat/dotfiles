@@ -1,0 +1,12 @@
+# docker
+alias dcu="docker-compose up"
+alias dcb="docker-compose build"
+alias dcrm="docker-compose rm"
+alias dckill="docker-compose kill"
+alias dcforce="docker-compose up --build --force-recreate"
+alias dconcache="docker-compose build --no-cache --pull"
+alias runtime="cd ~/git/rise-runtime"
+alias frontend="cd ~/git/rise-frontend"
+alias packages="cd ~/git/rise-packages"
+alias privresources="cd ~/git/private-resources"
+alias skipper="cd ~/git/skipper"
