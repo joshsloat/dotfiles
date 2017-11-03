@@ -14,6 +14,16 @@ alias privresources="cd ~/git/private-resources"
 alias skipper="cd ~/git/skipper"
 
 ####################################################
+# Git Helpers
+####################################################
+alias git-parent="git show-branch -a | grep '\*' | grep -v `git rev-parse --abbrev-ref HEAD` | head -n1 | sed 's/.*\[\(.*\)\].*/\1/' | sed 's/[\^~].*//'"
+
+####################################################
+# Bash Helpers
+####################################################
+alias bashreload=". ~/.bash_profile"
+
+####################################################
 # Custom Prompt (Git branch info)
 # requires installation of git-completion.bash
 # via curl command in dotfiles/install/git.sh
