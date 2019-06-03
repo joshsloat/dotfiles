@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 echo "Setting up Git Config and SSH Key Gen"
 
-ssh-keygen -t rsa -C "me@robertwpearce.com"
+ssh-keygen -t rsa -C "joshsloat@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
