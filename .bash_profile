@@ -7,11 +7,8 @@ alias dcrm="docker-compose rm"
 alias dckill="docker-compose kill"
 alias dcforce="docker-compose up --build --force-recreate"
 alias dcnocache="docker-compose build --no-cache --pull"
-alias runtime="cd ~/git/rise-runtime"
-alias frontend="cd ~/git/rise-frontend"
-alias packages="cd ~/git/rise-packages"
-alias privresources="cd ~/git/private-resources"
-alias skipper="cd ~/git/skipper"
+alias sunset="cd ~/git/sunset"
+alias wallet="cd ~/git/ebo-wallet"
 
 ####################################################
 # Git Helpers
